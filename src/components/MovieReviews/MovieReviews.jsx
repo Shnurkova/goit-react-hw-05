@@ -5,7 +5,7 @@ import { fetchMovieReviewsById } from '../../movies-api';
 import Loader from '../Loader/Loader';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 
-export default function MovieCast() {
+export default function MovieReviews() {
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
